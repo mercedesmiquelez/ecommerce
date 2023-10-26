@@ -3,8 +3,9 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-color: rgb(229, 229, 229);
-  color: rgb(89, 87, 87);
+  font-family: sans-serif;
+  background-color: #f8edeb;
+  color: #565a57;
 }
 
 .logo {
@@ -14,10 +15,10 @@
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #c9ada7);
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 2em #f4978e);
 }
 
 @keyframes logo-spin {

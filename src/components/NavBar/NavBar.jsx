@@ -1,17 +1,21 @@
+import classes from './Navbar.module.css'
 import CartWidget from "../CartWidget/CartWidget"
+import { NavLink, useNavigate } from 'react-router-dom'
 
-const NavBar = () => {
+const Navbar = () => {
+    const navigate = useNavigate()
+
     return (
-        <nav>
-            <h3 style={{fontSize:40}}>Indumentaria Blare</h3>
-            <div style={{fontSize:20}}>
-                <button>Ropa femenina</button>
-                <button>Roma masculina</button>
-                <button>Sector infantil</button>
-            </div>
+        <nav className={classes.container}>
+            <h1 onClick={() => navigate('/')}>Indumentaria Blare</h1>
+            <section className={`${classes.choices}`}>
+                <NavLink to='/category/ropafemenina' className={({ isActive }) => isActive ? classes.active : ''}>Ropa femenina</NavLink>
+                <NavLink to='/category/ropamasculina' className={({ isActive }) => isActive ? classes.active : ''}>Ropa masculina</NavLink>
+                <NavLink to='/category/sectorinfantil' className={({ isActive }) => isActive ? classes.active : ''}>Sector infantil</NavLink>
+            </section>
             <CartWidget />
         </nav>
     )
-}
+} 
 
-export default NavBar
+export default Navbar

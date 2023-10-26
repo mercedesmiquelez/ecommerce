@@ -1,0 +1,18 @@
+.btn {
+    max-width: 2rem;
+    padding: 5px;
+}
+
+.bigfont {
+    font-size: 100px;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    background-color: #d8e2dc;
+}
+
+.active {
+    color: #5f3c3d
+}

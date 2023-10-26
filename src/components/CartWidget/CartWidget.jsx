@@ -1,9 +1,10 @@
+import classes from './CartWidget.css'
 import cart from './assets/cart.svg'
 
 const CartWidget = () => {
     return (
-        <button style={{fontSize:16}}>
-            <img src={cart} style={{width:40}} alt="cart-widget" />
+        <button>
+        <img src={cart} className='btn'/>
             0
         </button>
     )

@@ -1,3 +1,4 @@
+import classes from './ItemDetailContainer.css'
 import { useEffect, useState } from "react"
 import { getProductById } from "../../asyncMock"
 import ItemDetail from '../ItemDetail/ItemDetail'
@@ -12,7 +13,7 @@ const ItemDetailContainer = () => {
     useEffect(() => {
         setLoading(true)
 
-        getProductById('3')
+        getProductById(itemId)
             .then(response => {
                 setProduct(response)
             })
@@ -33,7 +34,7 @@ const ItemDetailContainer = () => {
     }
 
     return (
-        <main style={{ background: 'pink'}}>
+        <main  className={`${classes.mainc}`} >
             <h1>Detalle del producto</h1>
             <ItemDetail {...product}/>
         </main>

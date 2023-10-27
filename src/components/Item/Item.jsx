@@ -11,7 +11,7 @@ const Item = ({ id, name, img, price }) => {
     return (
         <div onClick={handleClick} className={`${classes.divs}`}>
             <h1>{name}</h1>
-            <img src={img}  className={`${classes.imgs}`}/>
+            <img src={img}/>
             <h2>${price}</h2>
             <Link to={`/item/${id}`}>Ver detalle</Link>
         </div>

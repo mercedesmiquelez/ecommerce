@@ -4,7 +4,7 @@ const products = [
         name: 'Sweater tejido', 
         price: 23000, 
         category: 'ropafemenina', 
-        img:'./public/images/sweater.jpg', 
+        img:'/public/images/sweater.jpg', 
         stock: 15, 
         description:'Descripcion de Sweater'
     },
@@ -13,7 +13,7 @@ const products = [
         name: 'Jeans mom', 
         price: 28000, 
         category: 'ropafemenina', 
-        img:'./public/images/jeans.jpg', 
+        img:'/public/images/jeans.jpg', 
         stock: 10, 
         description:'Descripcion de Jeans'
     },
@@ -22,7 +22,7 @@ const products = [
         name: 'Camisa cuadros', 
         price: 15000, 
         category: 'ropamasculina', 
-        img:'./public/images/camisa.jpg', 
+        img:'/public/images/camisa.jpg', 
         stock: 8, 
         description:'Descripcion de Camisa'
     },
@@ -31,7 +31,7 @@ const products = [
         name: 'Jeans standard', 
         price: 45000, 
         category: 'ropamasculina', 
-        img:'./public/images/jeans (1).jpg', 
+        img:'/public/images/jeans (1).jpg', 
         stock: 12, 
         description:'Descripcion de Jeans'
     },
@@ -40,7 +40,7 @@ const products = [
         name: 'Gorro lana', 
         price: 800, 
         category: 'sectorinfantil', 
-        img:'./public/images/gorro.jpg', 
+        img:'/public/images/gorro.jpg', 
         stock: 5, 
         description:'Descripcion de Gorro'
     },

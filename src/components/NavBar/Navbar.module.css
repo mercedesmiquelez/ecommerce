@@ -6,7 +6,15 @@
 }
 
 .active {
-    color: #5f3c3d
+    color: #5f3c3d;
+}
+
+.NavLink {
+    box-sizing: border-box;
+    color: black;
+    cursor: default;
+    display: block;
+    background-color: beige;
 }
 
 .choices {
@@ -14,4 +22,5 @@
     flex-direction: column;
     justify-content: space-around;
     color: #2a2e2c;
+    
 }

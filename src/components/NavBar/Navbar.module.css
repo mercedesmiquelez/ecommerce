@@ -6,16 +6,14 @@
 }
 
 .active {
-    color: #5f3c3d;
+    padding: 0.3rem 0.3rem;
+    background-color: rgb(85, 83, 87);
+    border: 1px solid rgb(85, 83, 87);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
-.NavLink {
-    box-sizing: border-box;
-    color: black;
-    cursor: default;
-    display: block;
-    background-color: beige;
-}
 
 .choices {
     display: flex;

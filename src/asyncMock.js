@@ -6,7 +6,7 @@ const products = [
         category: 'ropafemenina', 
         img:'/public/images/sweater.jpg', 
         stock: 15, 
-        description:'Descripcion de Sweater'
+        description:'Sweater tejido de muy buena calidad'
     },
     { 
         id: '2', 
@@ -15,7 +15,7 @@ const products = [
         category: 'ropafemenina', 
         img:'/public/images/jeans.jpg', 
         stock: 10, 
-        description:'Descripcion de Jeans'
+        description:'Jeans fit tiro bajo'
     },
     { 
         id: '3', 
@@ -24,7 +24,7 @@ const products = [
         category: 'ropamasculina', 
         img:'/public/images/camisa.jpg', 
         stock: 8, 
-        description:'Descripcion de Camisa'
+        description:'Camisa a cuadros slim fit'
     },
     { 
         id: '4', 
@@ -33,7 +33,7 @@ const products = [
         category: 'ropamasculina', 
         img:'/public/images/jeans (1).jpg', 
         stock: 12, 
-        description:'Descripcion de Jeans'
+        description:'Jeans standard tiro medio'
     },
     { 
         id: '5', 
@@ -42,7 +42,7 @@ const products = [
         category: 'sectorinfantil', 
         img:'/public/images/gorro.jpg', 
         stock: 5, 
-        description:'Descripcion de Gorro'
+        description:'Gorro de lana de diferentes colores'
     },
 ]
 

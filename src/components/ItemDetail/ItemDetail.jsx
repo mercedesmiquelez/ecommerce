@@ -49,16 +49,13 @@ const ItemDetail = ({ id, name, category, img, price, stock, description }) => {
 
     return (
         <article>
-            <button onClick={() => setInputType(inputType === 'input' ? 'button' : 'input')}>
-                Cambiar contador
-            </button>
             <header>
                 <h2>
                     {name}
                 </h2>
             </header>
             <picture>
-                <img src={img} alt={name} style={{ width: 100}}/>
+                <img src={img} alt={name} style={{ width: 300, borderRadius: 4}}/>
             </picture>
             <section>
                 <p>

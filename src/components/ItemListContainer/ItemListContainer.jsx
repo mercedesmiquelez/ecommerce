@@ -19,7 +19,7 @@ const ItemListContainer = ({ greeting }) => {
 
     return (
         <div style={{ background: '#d6ccc2' }} onClick={() => console.log('click en itemlistcontainer')}>
-            <h1>{greeting + categoryId}</h1>
+            <h1>{greeting}</h1>
             <ItemList products={products}/>
         </div>
     )

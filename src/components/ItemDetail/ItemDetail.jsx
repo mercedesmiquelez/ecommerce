@@ -46,7 +46,7 @@ const ItemDetail = ({ id, name, category, img, price, stock, description }) => {
                     isInCart(id) ? (
                         <Link to='/cart'>Finalizar Compra</Link>
                     ) : (
-                        <ItemCount stock={stock} initial={1} onAdd={handleOnAdd}/>
+                        <ItemCount stock={stock} onAdd={handleOnAdd}/>
                     )
                 }
                 </div>

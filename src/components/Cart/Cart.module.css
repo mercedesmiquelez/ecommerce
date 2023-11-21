@@ -32,11 +32,16 @@
     height: 40px;
 }
 
-.comprarmas a{
-    margin-top: 10px;
-    display: block;
-}
-
 .comprarmas{
     margin: 15px;
 }
+
+.comprarmas a{
+    display: block;
+    align-items: center;
+    margin-top: 15px;
+    padding: 7px 35px; 
+    background-color: rgb(35, 55, 56);
+    color: aliceblue;
+}
+

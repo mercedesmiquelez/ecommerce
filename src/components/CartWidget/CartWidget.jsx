@@ -1,11 +1,18 @@
-import classes from './CartWidget.css'
-import cart from './assets/cart.svg'
+import classes from './CartWidget.module.css'
+import cart from '../../../public/shopping-cart-icon.svg'
+import { useCart } from '../../context/CartContext'
+import { useNavigate } from 'react-router-dom'
+
 
 const CartWidget = () => {
+    const { totalQuantity } = useCart()
+
+    const navigate = useNavigate()
+
     return (
-        <button>
-        <img src={cart} className='btn'/>
-            0
+        <button onClick={() => navigate('./cart')}>
+        <img className={classes.ImgCart} src={cart} alt="carrito de compras"/>
+            {totalQuantity}
         </button>
     )
 }

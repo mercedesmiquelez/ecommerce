@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
         <nav className={classes.container}>
             <h1 onClick={() => navigate('/')}>Indumentaria Blare</h1>
-            <section className={`${classes.choices}`}>
+            <section className={classes.choices}>
                 <NavLink to='/category/ropafemenina' className={({ isActive }) => isActive ? classes.active : ''}>Ropa femenina</NavLink>
                 <NavLink to='/category/ropamasculina' className={({ isActive }) => isActive ? classes.active : ''}>Ropa masculina</NavLink>
                 <NavLink to='/category/sectorinfantil' className={({ isActive }) => isActive ? classes.active : ''}>Sector infantil</NavLink>

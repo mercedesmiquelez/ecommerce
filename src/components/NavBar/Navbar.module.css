@@ -1,4 +1,6 @@
 .container {
+    padding: 20px;
+    line-height: 0.5;
     display: flex;
     justify-content: space-around;
     margin-bottom: 50px;
@@ -16,9 +18,19 @@
 
 
 .choices {
+    font-family: sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    color: white;
+}
+
+.choices a{
+    text-decoration: none;
     color: #2a2e2c;
-    
+    padding: 7px;
+}
+
+.choices a:hover {
+    color: aliceblue;
 }

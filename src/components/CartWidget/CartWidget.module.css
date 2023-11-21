@@ -1,8 +1,3 @@
-.btn {
-    max-width: 2rem;
-    padding: 5px;
-}
-
 .bigfont {
     font-size: 100px;
 }
@@ -15,4 +10,9 @@
 
 .active {
     color: #5f3c3d
+}
+
+.ImgCart {
+    width: 35px;
+    height: 35px;
 }

@@ -1,8 +1,10 @@
-import classes from './ItemDetailContainer.css'
 import { useEffect, useState } from "react"
-import { getProductById } from "../../asyncMock"
+// import classes from './ItemDetailContainer.css'
 import ItemDetail from '../ItemDetail/ItemDetail'
 import { useParams } from 'react-router-dom'
+// import { getDoc, doc } from "firebase/firestore"
+// import { db } from "../../services/firebase/firebaseConfig"
+import { getProductById } from "../../services/firebase/firestore/products"
 
 const ItemDetailContainer = () => {
     const [product, setProduct] = useState(null)
@@ -12,7 +14,7 @@ const ItemDetailContainer = () => {
 
     useEffect(() => {
         setLoading(true)
-
+        
         getProductById(itemId)
             .then(response => {
                 setProduct(response)
@@ -34,7 +36,7 @@ const ItemDetailContainer = () => {
     }
 
     return (
-        <main  className={`${classes.mainc}`} >
+        <main>
             <h1>Detalle del producto</h1>
             <ItemDetail {...product}/>
         </main>

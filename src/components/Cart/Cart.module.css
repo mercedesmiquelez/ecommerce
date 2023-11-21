@@ -1,0 +1,42 @@
+.ProductStyle button{
+    padding: 10px;
+    border-radius: 5;
+}
+
+.ProductStyle h3{
+    font-weight: 300;
+}
+
+.CartStyle {
+    padding: 1px;
+}
+
+.SimilBoton {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.Basura {
+    width: 25px;
+    height: 25px;
+}
+
+.Basura:hover {
+    width: 40px;
+    height: 40px;
+}
+
+.comprarmas a{
+    margin-top: 10px;
+    display: block;
+}
+
+.comprarmas{
+    margin: 15px;
+}

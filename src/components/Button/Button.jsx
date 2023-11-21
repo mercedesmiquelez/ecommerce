@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react"
 
 const Button = () => {
     const buttonRef = useRef()
@@ -15,7 +15,8 @@ const Button = () => {
         }
     }, [])
 
-    return <button ref={buttonRef} onClick={(e) => console.log('click sintetico!', e)}>boton</button>
+
+    return <button ref={buttonRef} onClick={(e) => console.log('click sintentico!', e)}>boton</button>
 }
 
 export default Button

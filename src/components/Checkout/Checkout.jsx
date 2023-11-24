@@ -23,8 +23,6 @@ const Checkout = () => {
                 items: cart,
                 total
             }
-
-            console.log(objOrder)
     
             const batch = writeBatch(db)
             const outOfStock = []

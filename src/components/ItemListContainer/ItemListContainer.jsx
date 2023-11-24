@@ -24,7 +24,7 @@ const ItemListContainer = ({ greeting }) => {
     }
 
     return (
-        <div style={{ background: '#d6ccc2' }} onClick={() => console.log('click en itemlistcontainer')}>
+        <div className={classes.Backstyle} onClick={() => console.log('click en itemlistcontainer')}>
             <h1 className={classes.sectionl}>{!categoryId ? greeting : (greeting + categoryId)}</h1>
             <ItemList products={products}/>
         </div>

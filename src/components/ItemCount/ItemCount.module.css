@@ -2,5 +2,8 @@
     background-color: dimgrey;
     color: azure;
     padding: 7px 12px;
-    font-size: medium
+    font-size: medium;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }

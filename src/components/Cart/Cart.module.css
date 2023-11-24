@@ -11,16 +11,25 @@
     padding: 1px;
 }
 
-.SimilBoton {
-    display: block;
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
-    text-decoration: none;
-    box-sizing: border-box;
-    font-family: sans-serif;
-    font-weight: 400;
+.cartIconPosition{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.SimilBoton {
+    margin: 5px;
+    position: relative;
+    text-decoration: none;
+    background-color: dimgrey;
+    color: azure;
+    padding: 7px 12px;
+    font-size: medium;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 
 .Basura {
     width: 25px;
@@ -33,15 +42,18 @@
 }
 
 .comprarmas{
-    margin: 15px;
+    margin: 5px;
+    text-decoration: none;
+    background-color: dimgrey;
+    color: azure;
+    padding: 7px 12px;
+    font-size: medium;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-.comprarmas a{
-    display: block;
-    align-items: center;
-    margin-top: 15px;
-    padding: 7px 35px; 
-    background-color: rgb(35, 55, 56);
-    color: aliceblue;
+.primerLink{
+    margin-bottom: 15px;
 }
 

@@ -1,5 +1,7 @@
 import { useState, createContext, useContext } from 'react'
 
+import { AddItemNotification } from './CartNotification'
+
 const CartContext = createContext({
     cart: [],
     addItem: () => {},
@@ -16,6 +18,7 @@ export const CartProvider = ({ children }) => {
     const addItem = (productToAdd) => {
         if(!isInCart(productToAdd.id)) {
             setCart(prev => [...prev, productToAdd])
+            AddItemNotification()
         } else {
             console.log('El producto ya esta agregado')
         }

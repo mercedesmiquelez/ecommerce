@@ -22,15 +22,15 @@ const Cart = () => {
             <footer className={classes.ProductStyle}>
                 {
                     cart.length !== 0 ? 
-                    <div>
+                    <div className={classes.cartIconPosition}>
                         <h2>Total: ${total}</h2>
                         <Link to='/checkout' className={classes.SimilBoton}>Finalizar Compra</Link>
+                        <Link className={classes.comprarmas} to='/'>Seguir comprando</Link>
                         <button onClick={handleClearCart}><img src="../public/basura.png" className={classes.Basura} alt="eliminar compra"/></button>
                     </div> :
                     <>
                         <h2>Su cesta de compras se encuentra vacía</h2>
                         <h3>Vuelva a nuestra tienda para mirar otros productos</h3>
-                        <Link className={classes.comprarmas} to='/'>Seguir comprando</Link>
                     </>
                 }
             </footer>

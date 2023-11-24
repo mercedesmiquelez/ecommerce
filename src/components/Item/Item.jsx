@@ -15,6 +15,7 @@ const Item = ({ id, name, img, quantity, price }) => {
         <div onClick={handleClick}>
             <h1>{name}</h1>
             <img className={classes.images} src={img}/>
+            <p>Cantidad: {quantity}</p>
             <h2>Precio: ${price}</h2>
             <button className={classes.BotonDetalle} onClick={() => navigate(`/item/${id}`)}>Detalle producto</button>
         </div>
